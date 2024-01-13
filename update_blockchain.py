@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+[Blockchain Update Script]
+
+This script fetches the latest ISS postion and adds it to the blockchain.
+"""
 
 import hashlib, datetime, json, os, requests
 
@@ -78,15 +85,17 @@ def fetch_iss_location():
     except requests.exceptions.RequestException as e:
         print(f"Error fetching ISS location: {e}")
 
-# File to store blockchain data
-file_name = "blockchain_data.json"
+if __name__ == "__main__":
 
-# Load the blockchain.
-blockchain = Blockchain()
+    # File to store blockchain data
+    file_name = "blockchain_data.json"
 
-# Add block to the blockchain
-blockchain.add_block(fetch_iss_location())
+    # Load the blockchain.
+    blockchain = Blockchain()
+    
+    # Add block to the blockchain
+    blockchain.add_block(fetch_iss_location())
 
-# Save the blockchain to a file
-blockchain.save_to_file(file_name)
+    # Save the blockchain to a file
+    blockchain.save_to_file(file_name)
 

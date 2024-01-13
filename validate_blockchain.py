@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+[Blockchain Validation Script]
+
+This script calculates the hashes of the blockchain to check if blockchain has been tampered with.
+"""
 
 import hashlib, datetime, json, os
 
@@ -52,12 +59,15 @@ class Blockchain:
 
         return True
 
-# Load the blockchain.
-blockchain = Blockchain()
+if __name__ == "__main__":
 
-# Validation
-is_valid = blockchain.validate_chain()
-if is_valid:
-    print("Blockchain is valid.")
-else:
-    print("Blockchain is not valid.")
+    # Load the blockchain.
+    blockchain = Blockchain()
+
+    # Validation
+    is_valid = blockchain.validate_chain()
+
+    if is_valid:
+        print("Blockchain is valid.")
+    else:
+        print("Blockchain is not valid.")

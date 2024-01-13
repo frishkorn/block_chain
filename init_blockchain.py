@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+[Blockchain Initialization Script]
+
+This script initializes a new blockchain, creating the genesis block.
+"""
 
 import hashlib, datetime, json, os
 
@@ -46,15 +53,17 @@ class Blockchain:
         with open(filename, 'w') as file:
             json.dump(self.serialize(), file, indent=4)
 
-# File to store blockchain data
-file_name = "blockchain_data.json"
+if __name__ == "__main__":
+    
+    # File to store blockchain data
+    file_name = "blockchain_data.json"
 
-# Load the blockchain or create a new one
-blockchain = Blockchain()
+    # Load the blockchain or create a new one
+    blockchain = Blockchain()
 
-# Save the blockchain to a file
-blockchain.save_to_file(file_name)
+    # Save the blockchain to a file
+    blockchain.save_to_file(file_name)
 
-# Print the blockchain
-for block in blockchain.chain:
-    print(f"Index: {block.index}, Timestamp: {block.timestamp}, Data: {block.data}, Previous Hash: {block.previous_hash}, Hash: {block.hash}\n")
+    # Print the blockchain
+    for block in blockchain.chain:
+        print(f"Index: {block.index}, Timestamp: {block.timestamp}, Data: {block.data}, Previous Hash: {block.previous_hash}, Hash: {block.hash}\n")
