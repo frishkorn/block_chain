@@ -6,7 +6,7 @@ with open('blockchain_data.json', 'r') as json_file:
     data = json.load(json_file)
 
 # Create a folium map centered at the initial location
-mymap = folium.Map(location=[0, 0], tiles="CartoDB_Positron", attr="OpenStreetMap", zoom_start=2)
+map = folium.Map(location=[0, 0], tiles="CartoDB_Positron", attr="OpenStreetMap", zoom_start=2)
 
 # Plot only the last 100 ISS locations on the map
 for i, entry in enumerate(data[-100:]):  # Iterate over the last 100 entries (~1-1/2 hr).
@@ -34,8 +34,8 @@ for i, entry in enumerate(data[-100:]):  # Iterate over the last 100 entries (~1
         [lat, lon],
         popup=f"ISS Location {entry['index']} {entry['timestamp']}",
         icon=folium.Icon(color=marker_color, prefix="fa", icon="satellite")
-    ).add_to(mymap)
+    ).add_to(map)
 
 # Save the map to an HTML file
-mymap.save('iss_locations_map.html')
+map.save('iss_locations_map.html')
 

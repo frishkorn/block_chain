@@ -48,11 +48,11 @@ class Blockchain:
 file_name = "blockchain_data.json"
 
 # Load the blockchain or create a new one
-my_blockchain = Blockchain()
+blockchain = Blockchain()
 
 # Save the blockchain to a file
-my_blockchain.save_to_file(file_name)
+blockchain.save_to_file(file_name)
 
 # Print the blockchain
-for block in my_blockchain.chain:
+for block in blockchain.chain:
     print(f"Index: {block.index}, Timestamp: {block.timestamp}, Data: {block.data}, Previous Hash: {block.previous_hash}, Hash: {block.hash}\n")
