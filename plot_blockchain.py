@@ -20,7 +20,7 @@ if __name__ == "__main__":
     map = folium.Map(location=[0, 0], tiles="CartoDB_Positron", attr="OpenStreetMap", zoom_start=2)
 
     # Plot only the last 100 ISS locations on the map
-    for i, entry in enumerate(data[-10:]):  # Iterate over the last 100 entries (~1-1/2 hr).
+    for i, entry in enumerate(data[-100:]):  # Iterate over the last 100 entries (~1-1/2 hr).
         lat_str, lon_str = entry["data"].split(":")[1].split(",")
         lat, lon = float(lat_str.split()[1]), float(lon_str.split()[1])
 
