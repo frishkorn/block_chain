@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import hashlib, datetime, json, os
 
 class Block:

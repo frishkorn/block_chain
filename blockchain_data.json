@@ -40,5 +40,68 @@
         "data": "Current ISS Location: Latitude -6.8872, Longitude 49.4546",
         "previous_hash": "4073f1b4d0eb52d891bd1a798a8b581925f3b3bc1a66b36a056bcd84b20b5433",
         "hash": "778a4239ae9b42a026ea47a79cd33cf644d788fb03ccd443d0968c6f72602d42"
+    },
+    {
+        "index": 6,
+        "timestamp": "2024-01-13 02:12:00.962782",
+        "data": "Current ISS Location: Latitude -9.8346, Longitude 51.6080",
+        "previous_hash": "778a4239ae9b42a026ea47a79cd33cf644d788fb03ccd443d0968c6f72602d42",
+        "hash": "983a78cae757d120ae4f1082102c6ad4a60489da1a6b1426aa44d87b195737da"
+    },
+    {
+        "index": 7,
+        "timestamp": "2024-01-13 02:13:00.689267",
+        "data": "Current ISS Location: Latitude -12.8145, Longitude 53.8423",
+        "previous_hash": "983a78cae757d120ae4f1082102c6ad4a60489da1a6b1426aa44d87b195737da",
+        "hash": "4394d9fac7afa44491a9d8aed9012ceb4ee7f93edb03ff102f5fedad2dede67d"
+    },
+    {
+        "index": 8,
+        "timestamp": "2024-01-13 02:14:01.513309",
+        "data": "Current ISS Location: Latitude -15.8195, Longitude 56.1748",
+        "previous_hash": "4394d9fac7afa44491a9d8aed9012ceb4ee7f93edb03ff102f5fedad2dede67d",
+        "hash": "09bdf0eb8b8401ba6aaabbe3630126be9cde7b2ab2fb015977fbe802239e1669"
+    },
+    {
+        "index": 9,
+        "timestamp": "2024-01-13 02:15:01.277271",
+        "data": "Current ISS Location: Latitude -18.7681, Longitude 58.5644",
+        "previous_hash": "09bdf0eb8b8401ba6aaabbe3630126be9cde7b2ab2fb015977fbe802239e1669",
+        "hash": "caa6defd24397322329c25f88cfb8b2180d775b651f597549727aa50d31261ca"
+    },
+    {
+        "index": 10,
+        "timestamp": "2024-01-13 02:16:01.041246",
+        "data": "Current ISS Location: Latitude -21.6536, Longitude 61.0259",
+        "previous_hash": "caa6defd24397322329c25f88cfb8b2180d775b651f597549727aa50d31261ca",
+        "hash": "2ebd13f457adb76168860b4a6dd789d8a29f1c54b2d2c7b8705bc0179c61e65f"
+    },
+    {
+        "index": 11,
+        "timestamp": "2024-01-13 02:17:00.822582",
+        "data": "Current ISS Location: Latitude -24.4938, Longitude 63.5978",
+        "previous_hash": "2ebd13f457adb76168860b4a6dd789d8a29f1c54b2d2c7b8705bc0179c61e65f",
+        "hash": "aaa1fe1518371b8cb5f5357d485f7af4478e69f0eaf3379c1aa69fa75b1fd271"
+    },
+    {
+        "index": 12,
+        "timestamp": "2024-01-13 02:18:01.721183",
+        "data": "Current ISS Location: Latitude -27.3473, Longitude 66.3677",
+        "previous_hash": "aaa1fe1518371b8cb5f5357d485f7af4478e69f0eaf3379c1aa69fa75b1fd271",
+        "hash": "c406557b938af44686c542ca5688475a541353616284782c8e11a590dbe63eb6"
+    },
+    {
+        "index": 13,
+        "timestamp": "2024-01-13 02:19:01.490740",
+        "data": "Current ISS Location: Latitude -30.0641, Longitude 69.2213",
+        "previous_hash": "c406557b938af44686c542ca5688475a541353616284782c8e11a590dbe63eb6",
+        "hash": "cfe3621df9439bbf0be894f48b5429fb2d71a35ca08330a0f47dcccb1cb1237a"
+    },
+    {
+        "index": 14,
+        "timestamp": "2024-01-13 02:20:01.198194",
+        "data": "Current ISS Location: Latitude -32.7039, Longitude 72.2478",
+        "previous_hash": "cfe3621df9439bbf0be894f48b5429fb2d71a35ca08330a0f47dcccb1cb1237a",
+        "hash": "54cf7d1544924641c107fbdec772c600c359ff4ec46b865fc9699cb719e37749"
     }
 ]
