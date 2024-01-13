@@ -80,11 +80,11 @@ def fetch_iss_location():
 file_name = "blockchain_data.json"
 
 # Load the blockchain.
-my_blockchain = Blockchain()
+blockchain = Blockchain()
 
 # Add block to the blockchain
-my_blockchain.add_block(fetch_iss_location())
+blockchain.add_block(fetch_iss_location())
 
 # Save the blockchain to a file
-my_blockchain.save_to_file(file_name)
+blockchain.save_to_file(file_name)
 

@@ -51,10 +51,10 @@ class Blockchain:
         return True
 
 # Load the blockchain.
-my_blockchain = Blockchain()
+blockchain = Blockchain()
 
 # Validation
-is_valid = my_blockchain.validate_chain()
+is_valid = blockchain.validate_chain()
 if is_valid:
     print("Blockchain is valid.")
 else:
