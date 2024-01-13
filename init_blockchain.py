@@ -44,31 +44,11 @@ class Blockchain:
         with open(filename, 'w') as file:
             json.dump(self.serialize(), file, indent=4)
 
-    @classmethod
-    def deserialize(cls, serialized_chain):
-        blockchain = cls()
-        for block_data in serialized_chain:
-            index = block_data['index']
-            timestamp = datetime.datetime.strptime(block_data['timestamp'], '%Y-%m-%d %H:%M:%S.%f')
-            block = Block(index, block_data['data'], block_data['previous_hash'], timestamp)
-            block.hash = block_data['hash']
-            blockchain.chain.append(block)
-        return blockchain
-
-    @classmethod
-    def load_from_file(cls, filename):
-        blockchain = cls()
-        if os.path.exists(filename):
-            with open(filename, 'r') as file:
-                serialized_chain = json.load(file)
-                blockchain = cls.deserialize(serialized_chain)
-        return blockchain
-
 # File to store blockchain data
 file_name = "blockchain_data.json"
 
 # Load the blockchain or create a new one
-my_blockchain = Blockchain.load_from_file(file_name)
+my_blockchain = Blockchain()
 
 # Save the blockchain to a file
 my_blockchain.save_to_file(file_name)
