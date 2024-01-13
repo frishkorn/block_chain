@@ -7208,5 +7208,19 @@
         "data": "Current ISS Location: Latitude -6.7871, Longitude -51.8240",
         "previous_hash": "c1d03537f42fc14fa5f8cf628034ea84d7ab51e9f9ded24eae5d0434f6bb4729",
         "hash": "0451a2b0556aad498253673ffcbf441bdff437857501ad6872ffe856905a1dc3"
+    },
+    {
+        "index": 1030,
+        "timestamp": "2024-01-13 19:56:01.540045",
+        "data": "Current ISS Location: Latitude -3.7005, Longitude -49.6104",
+        "previous_hash": "0451a2b0556aad498253673ffcbf441bdff437857501ad6872ffe856905a1dc3",
+        "hash": "5197679f090fdfa0c2dca80597b22283efb224f015dafa1a069ee0d48b754250"
+    },
+    {
+        "index": 1031,
+        "timestamp": "2024-01-13 19:57:01.431256",
+        "data": "Current ISS Location: Latitude -0.6826, Longitude -47.4675",
+        "previous_hash": "5197679f090fdfa0c2dca80597b22283efb224f015dafa1a069ee0d48b754250",
+        "hash": "099159af0eb23ce2d8a548e6a4a6bc23661e3c7f5ec9d435a9c292e76a56c5cb"
     }
 ]
