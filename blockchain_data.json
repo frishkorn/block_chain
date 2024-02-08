@@ -662,5 +662,157 @@
         "geo_loc": "Unknown or Ocean",
         "previous_hash": "d48e16489f12a646657b88229e32eb802033970b8518a21c8faec49940840ea3",
         "hash": "1627d9c83f866e284f43d759335a203c5618dafbb6a5be59935541855955e74e"
+    },
+    {
+        "index": 83,
+        "timestamp": "2024-02-08 02:17:01.616418",
+        "data": "Current ISS Location: Latitude -51.3611, Longitude -29.7077",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "1627d9c83f866e284f43d759335a203c5618dafbb6a5be59935541855955e74e",
+        "hash": "99fc862e82e1fd30f06d05ba21389eb2d4576023fb4c4504ec81a97657c2f8c4"
+    },
+    {
+        "index": 84,
+        "timestamp": "2024-02-08 02:18:01.844099",
+        "data": "Current ISS Location: Latitude -51.6101, Longitude -23.6931",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "99fc862e82e1fd30f06d05ba21389eb2d4576023fb4c4504ec81a97657c2f8c4",
+        "hash": "103445638b737b7dc6cbeabf3f5dc93897bdf83ec9bbbb4bb1b2e28441538323"
+    },
+    {
+        "index": 85,
+        "timestamp": "2024-02-08 02:19:02.105337",
+        "data": "Current ISS Location: Latitude -51.5250, Longitude -17.7067",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "103445638b737b7dc6cbeabf3f5dc93897bdf83ec9bbbb4bb1b2e28441538323",
+        "hash": "53ce643ddfbc24f09269d7a85c15cc37f3caed309120d86ec9ef3e7462879370"
+    },
+    {
+        "index": 86,
+        "timestamp": "2024-02-08 02:20:01.168573",
+        "data": "Current ISS Location: Latitude -51.1163, Longitude -11.8371",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "53ce643ddfbc24f09269d7a85c15cc37f3caed309120d86ec9ef3e7462879370",
+        "hash": "dc2f171bb9133e63df84a500f7865f54c4e524023b571a465c8dcadaef534c71"
+    },
+    {
+        "index": 87,
+        "timestamp": "2024-02-08 02:21:01.437875",
+        "data": "Current ISS Location: Latitude -50.3948, Longitude -6.1146",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "dc2f171bb9133e63df84a500f7865f54c4e524023b571a465c8dcadaef534c71",
+        "hash": "a9d87746d8026b7997dd26412c38e3f17c99888eef6fb32dd091ef3adac410c2"
+    },
+    {
+        "index": 88,
+        "timestamp": "2024-02-08 02:22:01.790661",
+        "data": "Current ISS Location: Latitude -49.3582, Longitude -0.5169",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "a9d87746d8026b7997dd26412c38e3f17c99888eef6fb32dd091ef3adac410c2",
+        "hash": "62d19910983fd49d491db13eca3fbcbc6af5e7f3cc17e7dcbfbbeaf189fd8f37"
+    },
+    {
+        "index": 89,
+        "timestamp": "2024-02-08 02:23:02.196474",
+        "data": "Current ISS Location: Latitude -48.0514, Longitude 4.7638",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "62d19910983fd49d491db13eca3fbcbc6af5e7f3cc17e7dcbfbbeaf189fd8f37",
+        "hash": "879a02e6fde8d1ce08b0c25beb5c41410dedfc9dd4eb270637750567a098aa29"
+    },
+    {
+        "index": 90,
+        "timestamp": "2024-02-08 02:24:01.341704",
+        "data": "Current ISS Location: Latitude -46.5066, Longitude 9.7049",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "879a02e6fde8d1ce08b0c25beb5c41410dedfc9dd4eb270637750567a098aa29",
+        "hash": "23136066d04a2318dfb03bb160a842d681ee5ab4020cb9740e4208fa34f956d6"
+    },
+    {
+        "index": 91,
+        "timestamp": "2024-02-08 02:25:01.720919",
+        "data": "Current ISS Location: Latitude -44.7244, Longitude 14.3776",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "23136066d04a2318dfb03bb160a842d681ee5ab4020cb9740e4208fa34f956d6",
+        "hash": "91d423b835374eb6eb9e7656076dcb380117ae6880ce4c098a923da44b738fa5"
+    },
+    {
+        "index": 92,
+        "timestamp": "2024-02-08 02:26:01.656771",
+        "data": "Current ISS Location: Latitude -42.7433, Longitude 18.7403",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "91d423b835374eb6eb9e7656076dcb380117ae6880ce4c098a923da44b738fa5",
+        "hash": "8c97d3408fba384591aba17e052b2994d9a32abe5cbf1bfa6727b03bf65ef735"
+    },
+    {
+        "index": 93,
+        "timestamp": "2024-02-08 02:27:01.790835",
+        "data": "Current ISS Location: Latitude -40.5884, Longitude 22.8053",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "8c97d3408fba384591aba17e052b2994d9a32abe5cbf1bfa6727b03bf65ef735",
+        "hash": "90ca36e17b0027ba31193339d63c035a14070adcc4d4e8b60ff9281d215297b8"
+    },
+    {
+        "index": 94,
+        "timestamp": "2024-02-08 02:28:01.926713",
+        "data": "Current ISS Location: Latitude -38.3025, Longitude 26.5613",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "90ca36e17b0027ba31193339d63c035a14070adcc4d4e8b60ff9281d215297b8",
+        "hash": "80468126b36b0c64e78228f1b7c101486733d246e6eacca07bb0f0096ce6b0c6"
+    },
+    {
+        "index": 95,
+        "timestamp": "2024-02-08 02:29:02.009820",
+        "data": "Current ISS Location: Latitude -35.8470, Longitude 30.1231",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "80468126b36b0c64e78228f1b7c101486733d246e6eacca07bb0f0096ce6b0c6",
+        "hash": "8e9d6ae757d9ded8e2c22fc6db116e3961419fa8aac4b0e5d9d424fa399f845c"
+    },
+    {
+        "index": 96,
+        "timestamp": "2024-02-08 02:31:02.022978",
+        "data": "Current ISS Location: Latitude -30.6786, Longitude 36.4947",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "8e9d6ae757d9ded8e2c22fc6db116e3961419fa8aac4b0e5d9d424fa399f845c",
+        "hash": "be6ee570007f0ca0b63908b782b7b1934e58e0c75d6faef06fcb40800ef08119"
+    },
+    {
+        "index": 97,
+        "timestamp": "2024-02-08 02:32:01.211264",
+        "data": "Current ISS Location: Latitude -28.0006, Longitude 39.3637",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "be6ee570007f0ca0b63908b782b7b1934e58e0c75d6faef06fcb40800ef08119",
+        "hash": "29f4ee34b9d3e908f09455d15e95d2ac9571b125a3ff3b1f7502e65b76b3cf5a"
+    },
+    {
+        "index": 98,
+        "timestamp": "2024-02-08 02:33:01.499236",
+        "data": "Current ISS Location: Latitude -25.2083, Longitude 42.1246",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "29f4ee34b9d3e908f09455d15e95d2ac9571b125a3ff3b1f7502e65b76b3cf5a",
+        "hash": "b814c16658d671208ac6324e468b993a8f83a3bdb5e8137d653d6effd78989e6"
+    },
+    {
+        "index": 99,
+        "timestamp": "2024-02-08 02:34:02.714069",
+        "data": "Current ISS Location: Latitude -22.3335, Longitude 44.7704",
+        "geo_loc": "Atsimo-Andrefana, Province de Toliara, Madagascar",
+        "previous_hash": "b814c16658d671208ac6324e468b993a8f83a3bdb5e8137d653d6effd78989e6",
+        "hash": "9036685d75bbb4701a5653c7bb166b81dc383c7d1fbfc22e22ea4116be99e702"
+    },
+    {
+        "index": 100,
+        "timestamp": "2024-02-08 02:35:02.117852",
+        "data": "Current ISS Location: Latitude -19.4333, Longitude 47.2775",
+        "geo_loc": "Vakinankaratra, Province d\u2019Antananarivo, Madagascar",
+        "previous_hash": "9036685d75bbb4701a5653c7bb166b81dc383c7d1fbfc22e22ea4116be99e702",
+        "hash": "1e19e8efcf89caa81604eb33b21a56279c54fad255afc0bf692f7bdb68b1c367"
+    },
+    {
+        "index": 101,
+        "timestamp": "2024-02-08 02:36:01.913557",
+        "data": "Current ISS Location: Latitude -16.5415, Longitude 49.6481",
+        "geo_loc": "Analanjirofo, Toamasina Province, Madagascar",
+        "previous_hash": "1e19e8efcf89caa81604eb33b21a56279c54fad255afc0bf692f7bdb68b1c367",
+        "hash": "4f6893eee6cdc76fe5f0198e4e3b3f92c3009d3905a4af20b7e4b25223425df2"
     }
 ]
