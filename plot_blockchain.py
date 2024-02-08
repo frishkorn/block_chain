@@ -9,7 +9,6 @@ This script takes the last 100 entries of the blockchain and plots them to a wor
 
 import folium, json, time
 from datetime import datetime
-from geopy.geocoders import Nominatim
 
 if __name__ == "__main__":
 
@@ -21,7 +20,7 @@ if __name__ == "__main__":
     map = folium.Map(location=[0, 0], tiles="CartoDB_Positron", attr="OpenStreetMap", zoom_start=2)
 
     # Plot only the last 100 ISS locations on the map
-    for i, entry in enumerate(data[-100:]):  # Iterate over the last 100 entries (~1-1/2 hr).
+    for i, entry in enumerate(data[-3:]):  # Iterate over the last 100 entries (~1-1/2 hr).
         lat_str, lon_str = entry["data"].split(":")[1].split(",")
         lat, lon = float(lat_str.split()[1]), float(lon_str.split()[1])
 
@@ -30,18 +29,6 @@ if __name__ == "__main__":
         timestamp = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S.%f")
         current_time = datetime.utcnow()
         age_in_minutes = (current_time - timestamp).total_seconds() / 60
-
-        geolocator = Nominatim(user_agent="block_iss")  # Replace "your_app_name" with a unique identifier
-
-        # Reverse geocode to get the city name from coordinates
-        location = geolocator.reverse([lat, lon], language='en')
-
-        # Check if the location is found
-        if location and location.address and len(location.address.split(",")) >= 3:
-            city_name = location.address.split(",")[-3]  # Extracting the city name from the address
-        else:
-            city_name = "Unknown"
-        time.sleep(0.5)
 
         # Set marker color based on age
         if age_in_minutes > 60:
@@ -56,7 +43,7 @@ if __name__ == "__main__":
         # Add marker to the map
         folium.Marker(
             [lat, lon],
-            popup=f"ISS Location {entry['index']} - {city_name} - {entry['timestamp']}",
+            popup=f"ISS Location {entry['index']} - {entry['geo_loc']} - {entry['timestamp']}",
             icon=folium.Icon(color=marker_color, prefix="fa", icon="satellite")
         ).add_to(map)
 
