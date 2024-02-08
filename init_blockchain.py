@@ -10,10 +10,11 @@ This script initializes a new blockchain, creating the genesis block.
 import hashlib, datetime, json, os
 
 class Block:
-    def __init__(self, index, data, previous_hash, timestamp=None):
+    def __init__(self, index, data, geo_loc, previous_hash, timestamp=None):
         self.index = index
         self.timestamp = timestamp or datetime.datetime.utcnow()
         self.data = data
+        self.geo_loc = geo_loc
         self.previous_hash = previous_hash
         self.hash = self.calculate_hash()
 
@@ -28,12 +29,12 @@ class Blockchain:
 
     def create_genesis_block(self):
         if not self.chain:
-            genesis_block = Block(0, "Genesis Block", "0")
+            genesis_block = Block(0, "Genesis Block", "None", "0")
             self.chain.append(genesis_block)
 
-    def add_block(self, data):
+    def add_block(self, data, geo_loc):
         previous_block = self.chain[-1]
-        new_block = Block(len(self.chain), data, previous_block.hash)
+        new_block = Block(len(self.chain), data, geo_loc, previous_block.hash)
         self.chain.append(new_block)
 
     def serialize(self):
@@ -43,6 +44,7 @@ class Blockchain:
                 "index": block.index,
                 "timestamp": str(block.timestamp),
                 "data": block.data,
+                "geo_loc": block.geo_loc,
                 "previous_hash": block.previous_hash,
                 "hash": block.hash
             }
