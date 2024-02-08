@@ -29,7 +29,7 @@ class Blockchain:
 
     def create_genesis_block(self):
         if not self.chain:
-            genesis_block = Block(0, "Genesis Block", "Unknown", "0")
+            genesis_block = Block(0, "Genesis Block", "None", "0")
             self.chain.append(genesis_block)
 
     def add_block(self, data, geo_loc):

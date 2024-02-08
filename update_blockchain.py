@@ -89,7 +89,7 @@ def fetch_iss_location():
         if location and location.address and len(location.address.split(",")) >= 3:
             geo_location = location.address
         else:
-            geo_location = "Unknown"
+            geo_location = "Unknown or Ocean"
 
         print(f"Current ISS Location: Latitude {latitude}, Longitude {longitude}", geo_location)
         return f"Current ISS Location: Latitude {latitude}, Longitude {longitude}", geo_location
