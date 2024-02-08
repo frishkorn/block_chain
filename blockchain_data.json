@@ -814,5 +814,45 @@
         "geo_loc": "Analanjirofo, Toamasina Province, Madagascar",
         "previous_hash": "1e19e8efcf89caa81604eb33b21a56279c54fad255afc0bf692f7bdb68b1c367",
         "hash": "4f6893eee6cdc76fe5f0198e4e3b3f92c3009d3905a4af20b7e4b25223425df2"
+    },
+    {
+        "index": 102,
+        "timestamp": "2024-02-08 02:37:03.270588",
+        "data": "Current ISS Location: Latitude -13.5186, Longitude 52.0172",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "4f6893eee6cdc76fe5f0198e4e3b3f92c3009d3905a4af20b7e4b25223425df2",
+        "hash": "52e1fb27a4641c49ca39e8d38861c61bb96ef2e527b34e95c725f93e941983ff"
+    },
+    {
+        "index": 103,
+        "timestamp": "2024-02-08 02:38:01.790055",
+        "data": "Current ISS Location: Latitude -10.5435, Longitude 54.2647",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "52e1fb27a4641c49ca39e8d38861c61bb96ef2e527b34e95c725f93e941983ff",
+        "hash": "71c48940be5768cf37731a1a76c9f4c9b4df487c70ccbe6d5214fe442b7a368b"
+    },
+    {
+        "index": 104,
+        "timestamp": "2024-02-08 02:39:01.778698",
+        "data": "Current ISS Location: Latitude -7.5486, Longitude 56.4647",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "71c48940be5768cf37731a1a76c9f4c9b4df487c70ccbe6d5214fe442b7a368b",
+        "hash": "9ab22b6f1780b471365445f5fb86ec9ffe9646b70b397a42306f96dd2b87ee35"
+    },
+    {
+        "index": 105,
+        "timestamp": "2024-02-08 02:40:02.064400",
+        "data": "Current ISS Location: Latitude -4.4898, Longitude 58.6669",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "9ab22b6f1780b471365445f5fb86ec9ffe9646b70b397a42306f96dd2b87ee35",
+        "hash": "28211099146a3085b5f886d8d7ed3cb6a17d367d0f3c32cefbc8523f8a3ad640"
+    },
+    {
+        "index": 106,
+        "timestamp": "2024-02-08 02:41:01.346868",
+        "data": "Current ISS Location: Latitude -1.4988, Longitude 60.7946",
+        "geo_loc": "Unknown or Ocean",
+        "previous_hash": "28211099146a3085b5f886d8d7ed3cb6a17d367d0f3c32cefbc8523f8a3ad640",
+        "hash": "b10dcc08dea1f3857486fe75187e7bb4de373832c6439506feae5e37b0a90e77"
     }
 ]
