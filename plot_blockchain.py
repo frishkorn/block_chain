@@ -17,7 +17,7 @@ if __name__ == "__main__":
         data = json.load(json_file)
 
     # Create a folium map centered at the initial location
-    map = folium.Map(location=[0, 0], tiles="OpenStreetMap", attr="OpenStreetMap", zoom_start=2)
+    map = folium.Map(location=[0, 0], tiles="OpenStreetMap", attr="OpenStreetMap", zoom_start=4)
 
     # Plot only the last 100 ISS locations on the map
     for i, entry in enumerate(data[-100:]):  # Iterate over the last 100 entries (~1-1/2 hr).
@@ -46,6 +46,8 @@ if __name__ == "__main__":
             popup=f"ISS Location {entry['index']} - {entry['geo_loc']} - {entry['timestamp']}",
             icon=folium.Icon(color=marker_color, prefix="fa", icon="satellite")
         ).add_to(map)
+
+        map.location = (lat, lon)
 
     # Save the map to an HTML file
     map.save('iss_locations_map.html')
