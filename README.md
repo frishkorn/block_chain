@@ -13,17 +13,17 @@
 * Conclusions
 * Usage Examples
 
-## Introduction
+### Introduction
 The script takes the last 100 entries of a blockchain and plots them on a world map. It uses the Folium library to create the map and markers. The marker colors are determined based on the age of each entry, with different colors representing different age ranges. The resulting map is saved as an HTML file.
 
-## Requirements
-### The script requires the following:
+### Requirements
+#### The script requires the following:
 
 * Python 3.x
 * Folium library
 * JSON file containing blockchain data
 
-## Usage Instructions
+### Usage Instructions
 To use the script:
 
 Ensure that Python 3.x is installed on your system.
@@ -41,7 +41,8 @@ The timestamp is extracted and converted to a datetime object for calculating th
 The marker color is determined based on the age of the entry.
 A marker is added to the map for each entry, with a popup displaying the entry index, geographical location, and timestamp.
 The resulting map is saved as an HTML file.
-Examples
+
+### Examples
 Here are some examples of how the script can be used:
 
 Visualizing the movement of a cryptocurrency by plotting its blockchain data on a map.
