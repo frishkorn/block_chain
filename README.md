@@ -69,10 +69,3 @@ The marker colors are determined based on fixed age ranges. You may need to adju
 The script assumes that the JSON file contains the necessary data fields in the expected format. If your data is structured differently, you may need to modify the code accordingly.
 Conclusions
 The script provides a convenient way to visualize blockchain data on a world map. By plotting the data points and assigning marker colors based on age, it allows for easy analysis and interpretation of the data. The resulting map can be saved as an HTML file for further sharing and exploration.
-
-Usage Examples
-Here are some usage examples of the script:
-
-Visualizing the geographical distribution of cryptocurrency transactions.
-Monitoring the movement and age of satellite data.
-Analyzing the spread of disease outbreaks based on location and time.
