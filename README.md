@@ -1,29 +1,29 @@
 # ISS Blockchain - frishkorn.com
-## This source code is a Python script that plots the last 100 entries of a blockchain on a world map using the Folium library. It reads data from a JSON file, extracts the latitude and longitude coordinates, calculates the age of each entry, and assigns marker colors based on the age. The resulting map is saved as an HTML file.
+#### This source code is a Python script that plots the last 100 entries of a blockchain on a world map using the Folium library. It reads data from a JSON file, extracts the latitude and longitude coordinates, calculates the age of each entry, and assigns marker colors based on the age. The resulting map is saved as an HTML file.
 
-* Table of Contents
+## Table of Contents
 * Introduction
 * Requirements
-Usage Instructions
-Code Comments
-Examples
-Configuration
-Troubleshoot
-Limitations
-Conclusions
-Usage Examples
+* Usage Instructions
+* Code Comments
+* Examples
+* Configuration
+* Troubleshoot
+* Limitations
+* Conclusions
+* Usage Examples
 
-#Introduction
+## Introduction
 The script takes the last 100 entries of a blockchain and plots them on a world map. It uses the Folium library to create the map and markers. The marker colors are determined based on the age of each entry, with different colors representing different age ranges. The resulting map is saved as an HTML file.
 
-#Requirements
-##The script requires the following:
+## Requirements
+### The script requires the following:
 
-*Python 3.x
-*Folium library
-*JSON file containing blockchain data
+* Python 3.x
+* Folium library
+* JSON file containing blockchain data
 
-#Usage Instructions
+## Usage Instructions
 To use the script:
 
 Ensure that Python 3.x is installed on your system.
